@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+.calculator {
+width: 400px;
+margin: 0 auto;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+background-image: linear-gradient(95.2deg, rgb(168, 216, 205) 26.8%, rgb(106, 165, 192) 64%);
+border-radius:  10px;
+border: #333 solid 2px;
+font-family: 'Roboto Slab', serif;
+}
+  
+input[type="text"] {
+margin: 5px;
+padding: 8px;
+border: 1px solid #2d2929;
+border-radius: 5px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+width: calc(50% - 30px);
+font-family: 'Roboto Slab', serif;
+font-size: 15px;
+}
+  
+.button-row {
+margin-top: 5px;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+
+.button-row .result-and-reset {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+  
+button {
+padding: 5px 15px;
+margin: 0 5px;
+transition: background-color 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s;
+border: 1px solid #1a1919;
+border-radius: 5px;
+box-shadow: 5 5px 10px rgba(0, 0, 0, 0.1);
+margin-top: 8px;
+font-family: 'Roboto Slab', serif;
+}
+
+button:hover {
+background-color: #f0f0f0;
+color: #333;
+border-color: #ddd;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+  
+#result {
+margin-top: 10px;
+margin-left: 5px;
+color: black;
+font-family: 'Roboto Slab', serif;
+}
+  
+body {
+margin: 0;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: linear-gradient(to right, #8360c3, #2ebf91);
+flex-direction: column;
+}
+
+h1 {
+color: white;
+font-family: 'Roboto Slab', serif;
+text-shadow: 2px 2px 4px #000000;
+}
+
+button.sign {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button.reset {
+    font-size: 14px;
+}
